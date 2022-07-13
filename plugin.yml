@@ -1,0 +1,15 @@
+main: io.github.randomkiddo.worldborder.Main
+name: WorldBorder
+version: 1.1.0
+author: firsttry
+commands:
+  border:
+    description: Creates a world border
+    usage: /border world x z size
+    permission: worldborder.op
+    permission-message: You don't have permission to execute this command!
+  borderremove:
+    description: Removes a world border
+    usage: /borderremove
+    permission: worldborder.op
+    permission-message: You don't have permission to execute this command!
